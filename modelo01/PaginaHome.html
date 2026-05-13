@@ -7,7 +7,10 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-<link rel="stylesheet" href="./style/estilo2.css">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./style/estilo2.css">
 <link rel="stylesheet" href="./style/estilo.css">
    <!--Titulo da marca -->
     <title>  Full - Nutri </title>
@@ -46,6 +49,220 @@
   </div>
 </nav>
 </header>
+
+
+
+
+
+
+
+
+<!-- PLATE SECTION -->
+<section class="section" id="prato">
+  <h2 class="section-title">O Prato da Alimentação Regular</h2>
+  <p class="section-sub">Cada seção do prato representa um grupo alimentar com funções vitais para o organismo.</p>
+  <div class="plate-wrapper">
+    <!-- Plate SVG -->
+    <div class="plate-visual">
+      <svg class="plate-svg" viewBox="0 0 280 280" xmlns="http://www.w3.org/2000/svg">
+        <!-- shadow -->
+        <circle cx="140" cy="144" r="120" fill="rgba(0,0,0,0.06)"/>
+        <!-- plate base -->
+        <circle cx="140" cy="140" r="120" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1"/>
+        <!-- Frutas top-left -->
+        <path class="plate-segment" d="M140,140 L140,22 A118,118 0,0,0 22,140 Z" fill="#e53935"/>
+        <text x="95" y="98" text-anchor="middle" font-family="Nunito" font-weight="800" font-size="13" fill="white">Frutas</text>
+        <!-- Grãos top-right -->
+        <path class="plate-segment" d="M140,140 L258,140 A118,118 0,0,0 140,22 Z" fill="#ef6c00"/>
+        <text x="186" y="98" text-anchor="middle" font-family="Nunito" font-weight="800" font-size="13" fill="white">Grãos</text>
+        <!-- Vegetais bottom-left -->
+        <path class="plate-segment" d="M140,140 L22,140 A118,118 0,0,0 140,258 Z" fill="#388e3c"/>
+        <text x="95" y="186" text-anchor="middle" font-family="Nunito" font-weight="800" font-size="13" fill="white">Vegetais</text>
+        <!-- Proteínas bottom-right -->
+        <path class="plate-segment" d="M140,140 L140,258 A118,118 0,0,0 258,140 Z" fill="#7b1fa2"/>
+        <text x="186" y="186" text-anchor="middle" font-family="Nunito" font-weight="800" font-size="11" fill="white">Proteínas</text>
+        <!-- center divider -->
+        <line x1="140" y1="22" x2="140" y2="258" stroke="white" stroke-width="2"/>
+        <line x1="22" y1="140" x2="258" y2="140" stroke="white" stroke-width="2"/>
+        <!-- center circle -->
+        <circle cx="140" cy="140" r="18" fill="white"/>
+      </svg>
+      <div class="dairy-cup">Lácteos</div>
+    </div>
+ 
+    <!-- Food Cards -->
+    <div class="food-cards">
+      <div class="food-card">
+        <span class="food-card-label" style="color:#e53935;">🍎 Frutas</span>
+        <h3>25% do prato</h3>
+        <p>Vitaminas, minerais e fibras que protegem o organismo.</p>
+      </div>
+      <div class="food-card">
+        <span class="food-card-label" style="color:#ef6c00;">🌾 Grãos</span>
+        <h3>25% do prato</h3>
+        <p>Energia sustentada para o dia a dia. Prefira grãos integrais.</p>
+      </div>
+      <div class="food-card">
+        <span class="food-card-label" style="color:#388e3c;">🥦 Vegetais</span>
+        <h3>30% do prato</h3>
+        <p>O maior grupo. Rico em fibras, antioxidantes e micronutrientes.</p>
+      </div>
+      <div class="food-card">
+        <span class="food-card-label" style="color:#7b1fa2;">🥩 Proteínas</span>
+        <h3>20% do prato</h3>
+        <p>Carnes, ovos, leguminosas. Essencial para músculos e tecidos.</p>
+      </div>
+      <div class="food-card" style="grid-column: span 2; border-color:#1565c0;">
+        <span class="food-card-label" style="color:#1565c0;">🥛 Lácteos</span>
+        <h3>Porção separada</h3>
+        <p>Leite, queijo ou iogurte. Fonte de cálcio e vitamina D para ossos saudáveis.</p>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- NUTRIENTS -->
+<section class="nutrients-section">
+  <div class="section">
+    <h2 class="section-title">Nutrientes Essenciais</h2>
+    <p class="section-sub">Cada grupo fornece nutrientes específicos que seu corpo precisa diariamente.</p>
+    <div class="nutrients-grid">
+      <div class="nutrient-item">
+        <span class="nutrient-icon">⚡</span>
+        <h4>Carboidratos</h4>
+        <p>Principal fonte de energia. Presente nos grãos, frutas e vegetais.</p>
+      </div>
+      <div class="nutrient-item">
+        <span class="nutrient-icon">🔧</span>
+        <h4>Proteínas</h4>
+        <p>Constroem e reparam tecidos, músculos e órgãos do corpo.</p>
+      </div>
+      <div class="nutrient-item">
+        <span class="nutrient-icon">🛡️</span>
+        <h4>Vitaminas</h4>
+        <p>Regulam funções corporais e fortalecem o sistema imunológico.</p>
+      </div>
+      <div class="nutrient-item">
+        <span class="nutrient-icon">💧</span>
+        <h4>Minerais</h4>
+        <p>Cálcio, ferro e potássio são essenciais para ossos e circulação.</p>
+      </div>
+      <div class="nutrient-item">
+        <span class="nutrient-icon">🌿</span>
+        <h4>Fibras</h4>
+        <p>Melhoram a digestão e ajudam no controle do colesterol e açúcar.</p>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- DAILY TRACKER -->
+<section class="daily-tracker">
+  <div class="section">
+    <h2 class="section-title">Ingestão Diária Recomendada</h2>
+    <p class="section-sub">Metas para um adulto saudável seguindo alimentação regular.</p>
+    <div class="tracker-cards" id="trackerCards">
+      <div class="tracker-item">
+        <h4>🍎 Frutas</h4>
+        <div class="progress-bar"><div class="progress-fill" data-val="75"></div></div>
+        <span>2–4 porções por dia</span>
+      </div>
+      <div class="tracker-item">
+        <h4>🥦 Vegetais</h4>
+        <div class="progress-bar"><div class="progress-fill" data-val="90"></div></div>
+        <span>3–5 porções por dia</span>
+      </div>
+      <div class="tracker-item">
+        <h4>🌾 Grãos</h4>
+        <div class="progress-bar"><div class="progress-fill" data-val="65"></div></div>
+        <span>6–8 porções por dia</span>
+      </div>
+      <div class="tracker-item">
+        <h4>🥩 Proteínas</h4>
+        <div class="progress-bar"><div class="progress-fill" data-val="55"></div></div>
+        <span>2–3 porções por dia</span>
+      </div>
+      <div class="tracker-item">
+        <h4>🥛 Lácteos</h4>
+        <div class="progress-bar"><div class="progress-fill" data-val="80"></div></div>
+        <span>2–3 porções por dia</span>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- TIPS -->
+<section>
+  <div class="section">
+    <h2 class="section-title">Dicas para uma Alimentação Equilibrada</h2>
+    <p class="section-sub">Hábitos simples que fazem grande diferença no seu bem-estar.</p>
+    <div class="tips-grid">
+      <div class="tip-card">
+        <div class="tip-number">1</div>
+        <div>
+          <h4>Varie as cores no prato</h4>
+          <p>Quanto mais colorido o prato, maior a variedade de nutrientes consumidos.</p>
+        </div>
+      </div>
+      <div class="tip-card">
+        <div class="tip-number">2</div>
+        <div>
+          <h4>Beba água regularmente</h4>
+          <p>Pelo menos 8 copos de água por dia garantem a hidratação correta do organismo.</p>
+        </div>
+      </div>
+      <div class="tip-card">
+        <div class="tip-number">3</div>
+        <div>
+          <h4>Evite ultraprocessados</h4>
+          <p>Dê preferência a alimentos naturais e minimamente processados no dia a dia.</p>
+        </div>
+      </div>
+      <div class="tip-card">
+        <div class="tip-number">4</div>
+        <div>
+          <h4>Faça refeições completas</h4>
+          <p>Inclua todos os grupos do prato em cada refeição principal para equilíbrio nutricional.</p>
+        </div>
+      </div>
+      <div class="tip-card">
+        <div class="tip-number">5</div>
+        <div>
+          <h4>Coma devagar</h4>
+          <p>Mastigue bem os alimentos. Isso melhora a digestão e o sinal de saciedade.</p>
+        </div>
+      </div>
+      <div class="tip-card">
+        <div class="tip-number">6</div>
+        <div>
+          <h4>Prefira grãos integrais</h4>
+          <p>Arroz, pão e macarrão integrais fornecem mais fibras e nutrientes do que os refinados.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- NAV BUTTON -->
+<section class="nav-section">
+  <h2>Conheça Nossa Empresa</h2>
+  <p>Saiba mais sobre nossa missão, valores e como podemos ajudar na sua jornada nutricional.</p>
+  <a href="empresa.html" class="btn-nav">
+    Ver página da empresa
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+  </a>
+</section>
+ 
+
+
+
+
+
+
+
+
+
+
 
 
 <footer class="ft-root">
